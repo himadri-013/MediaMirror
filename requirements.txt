@@ -1,0 +1,11 @@
+streamlit
+pandas
+newsapi-python
+nltk
+textblob
+numpy
+gensim
+scikit-learn
+plotly
+wordcloud
+scipy==1.11.3
