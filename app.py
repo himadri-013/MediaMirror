@@ -1,22 +1,7 @@
-import nltk
-import shutil
-import os
-
-# --- CLEANUP CORRUPT OR CONFLICTED NLTK FILES ---
-try:
-    bad_path = os.path.join(nltk.data.find("tokenizers"), "punkt_tab")
-    shutil.rmtree(bad_path)
-except:
-    pass  # safe to ignore if it doesn't exist
-
-# --- ENSURE REQUIRED MODELS ---
-nltk.download('punkt')
-nltk.download('stopwords')
-
 import streamlit as st
 import pandas as pd
 from newsapi import NewsApiClient
-
+import nltk
 
 # Import functions from your project modules
 from data_fetcher import fetch_news_data
@@ -174,3 +159,4 @@ if analyze_button:
 else:
 
     st.info("Select a news source from the sidebar and click 'Analyze' to see the dashboard.")
+
