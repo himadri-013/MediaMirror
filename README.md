@@ -1,7 +1,7 @@
 # 🪞 Media Mirror: News Bias Analyzer
 
 **Media Mirror** is a Streamlit-powered application that analyzes the political bias and sentiment of news articles from popular media sources. It leverages NLP techniques, GloVe word embeddings, and interactive visualizations to help users assess the ideological leanings of modern media outlets.
-
+Try the app : https://mediamirror-lzjbaaxfd324pyibrqhxzj.streamlit.app/
 ---
 
 ## 🔍 Features
