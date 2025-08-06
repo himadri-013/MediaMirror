@@ -1,0 +1,10 @@
+streamlit
+pandas
+newsapi-python
+nltk
+textblob
+numpy
+gensim
+scikit-learn
+plotly
+wordcloud
